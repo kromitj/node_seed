@@ -12,6 +12,12 @@ var list = {
   password_default: function() {
     return "password"
   },
+  paragraph: function() {
+    return faker.lorem.paragraph()
+  },
+  articleTitle: function() {
+    return faker.hacker.phrase()
+  },
 }
 
 exports.getDataType = function(dataType) {
