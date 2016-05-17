@@ -1,0 +1,24 @@
+{
+  "name": "node_seed",
+  "version": "1.0.0",
+  "description": "Tool that creates seed data and inserts it into a mongoDB collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kromitj/node_seed.git"
+  },
+  "keywords": [
+    "seed",
+    "mongoDB",
+    "JSON"
+  ],
+  "author": "Mitch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kromitj/node_seed/issues"
+  },
+  "homepage": "https://github.com/kromitj/node_seed#readme"
+}
