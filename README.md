@@ -42,5 +42,5 @@
 		// this connects to the blodDB, targets the user collection and imports our Seed.json file
 
 ##Resources
--	Read [this](http://example.net/) article to get an idea of how populateDB.rb works:
+-	Read [this](http://zaiste.net/2012/08/importing_json_into_mongodb/) article to get an idea of how populateDB.rb works:
 	 
