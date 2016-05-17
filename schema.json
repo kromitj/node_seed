@@ -1,4 +1,6 @@
 {
-	"title": "articleTitle",
-	"content": "paragraph"
+	"f_name": "f_name",
+	"l_name": "l_name",
+	"username": "username",
+	"password": "passwordDefault"
 }

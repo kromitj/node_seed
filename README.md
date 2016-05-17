@@ -8,31 +8,39 @@
 	
 -	run schemaGenerator.js followed by arguments that define your schema like
 		
-		node schemaGenerator.js f_name f_name l_name l_name
+		node schemaGenerator.js f_name f_name l_name l_name username username password passwordDefault
 		// this populates the schema.json file with:
 		{
-			"f_name": "f_name",
-			"l_name": "l_name"
+		  "f_name": "f_name",
+		  "l_name": "l_name",
+	      "username": "username",
+	      "password": "passwordDefault"
 		} 
 
 2	Now run schemaToSeed.js followed by how many seeds you want to make
 	
 		node schemaToSeed.js 3
 		// This populates the ./seeds/Seed.json file with:
-		[
-			{
-				"title": "You can't synthesize the interface without backing up the open-source HTTP capacitor!",
-				"content": "Id voluptatem quam consectetur sint tempore et. Aliquam rerum quis magnam. Officiis nobis dolorum nostrum repudiandae delectus dignissimos. Accusantium eius qui."
-			},
-			{
-				"title": "The PNG firewall is down, index the cross-platform firewall so we can quantify the TCP microchip!",
-				"content": "Rerum saepe eos et expedita rerum fuga voluptate distinctio. Sint quia dolorum labore nihil eligendi nobis. Explicabo ut accusamus vel voluptatem. Voluptatibus culpa porro maiores suscipit saepe atque et. Magni molestias culpa magnam et voluptates. Sint commodi inventore dolorem molestias autem dolore atque."
-			},
-			{
-				"title": "navigating the card won't do anything, we need to reboot the online SMS transmitter!",
-				"content": "Vel fugit consequuntur alias. Placeat ratione enim tenetur repellat. Maxime dignissimos enim amet voluptatem id velit blanditiis. Sit beatae delectus sapiente optio. Ipsa saepe ipsum quia id labore."
-			}
-    ]
+	[
+	  {
+	    "f_name": "Osbaldo",
+	    "l_name": "Feil",
+	    "username": "Rosamond.Kshlerin",
+	    "password": "password"
+	  },
+	  {
+	    "f_name": "Emmitt",
+	    "l_name": "Bashirian",
+	    "username": "Liliane_Harris",
+	    "password": "password"
+	  },
+	  {
+	    "f_name": "Tracy",
+	    "l_name": "Hoppe",
+	    "username": "Yoshiko_Little",
+	    "password": "password"
+	  }
+	]
 3	Last step run populateDB.rb taking two arguments:
 
 *	1: the name of database

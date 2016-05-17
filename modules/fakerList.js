@@ -9,7 +9,7 @@ var list = {
   username: function() {
     return faker.internet.userName()
   },
-  password_default: function() {
+  passwordDefault: function() {
     return "password"
   },
   paragraph: function() {
